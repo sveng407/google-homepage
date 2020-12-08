@@ -1,0 +1,131 @@
+#searchbox {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 85%;
+flex-direction: column;
+}
+
+.centerdiv {
+    padding: 18px 10px;
+}
+
+
+
+#searchbar {
+    position: relative;
+    display: flex;
+    min-width: 500px;
+}
+
+#searchicon {
+    position: absolute;
+    top:33px;
+    left: 30px;
+    width: 14px;
+    font-size: 17px;
+    color: rgb(138, 138, 138);
+}
+
+#voiceicon {
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    /* visibility:hidden; */
+    background-image: linear-gradient(to top, rgb(69, 224, 55), rgb(221, 12, 12), rgb(0, 140, 255),rgb(0, 140, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#searchinput {
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    border-radius: 30px;
+    height: 50px;
+   width: 100%;
+    padding: 2px 23px 2px 55px;
+    outline: 0;
+
+}
+
+ #searchinput:hover, #searchinpiut:focus {
+     border: 1.5px solid #009688;
+     background-color: white;
+     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.144);
+     outline: 0px;
+     border: 0px;
+ }
+
+#searchbutton, #luckybutton {
+     border: 0px;
+     padding: 10px 15px;
+     margin: 0px 5px;
+     background-color: rgba(128, 128, 128, 0.082);
+     border-radius: 3px;
+     font-size: 15px;
+ }
+
+ #searchbutton:hover, #luckybutton:hover {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.363);
+    border: 3px;
+    border-color: grey;
+    cursor: pointer;
+}
+
+#searchbutton:focus, #luckybutton:focus {
+    outline-color: rgba(11, 138, 242, 0.8);
+    outline-width: 0.1px; 
+    
+} 
+  
+#sharebutton {
+    font-size: 21px;
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+
+#logog:hover {
+    cursor: pointer;
+}
+
+.navheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 18px;
+    left: 20px;
+    right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10em;
+}
+
+#headright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15em;
+}
+
+#userhead {
+    background-color: brown; 
+    border-radius: 50%;
+    border 5px solid red;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    position: relative;
+    bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
